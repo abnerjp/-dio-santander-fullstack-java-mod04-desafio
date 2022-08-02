@@ -1,8 +1,13 @@
+package desafio;
+
+import desafio.excecoes.SaldoInsuficienteException;
+import desafio.excecoes.ValorInvalidoException;
+
 public interface IConta {
 
-     void sacar(double valor);
-     void depositar(double valor);
-     void transferir(double valor, Conta contaDestino);
+     boolean sacar(double valor) throws ValorInvalidoException, SaldoInsuficienteException;
+     boolean depositar(double valor) throws ValorInvalidoException;
+     boolean transferir(double valor, Conta contaDestino) throws SaldoInsuficienteException, ValorInvalidoException;
      void imprimirExtrato();
 
 }
