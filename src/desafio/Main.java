@@ -13,7 +13,10 @@ public class Main {
         contaCorrenteCli1.transferir(30, contaPoupancaCli2);
         contaCorrenteCli1.depositar(1);
 
+        contaCorrenteCli1.imprimirExtrato();
         contaCorrenteCli1.imprimirMovimentacoes();
+
+        contaPoupancaCli2.imprimirExtrato();
         contaPoupancaCli2.imprimirMovimentacoes();
 
         bancoBrasil.listarClientes();

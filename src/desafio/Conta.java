@@ -58,14 +58,14 @@ public abstract class Conta implements IConta {
 
     @Override
     public void imprimirExtrato() {
-        System.out.println(String.format("Agência: %d", this.agencia));
-        System.out.println(String.format("Número: %d", this.numeroConta));
-        System.out.println(String.format("Saldo: %.2f", this.saldo));
+        System.out.printf("Agência: %d%n", this.agencia);
+        System.out.printf("Número: %d%n", this.numeroConta);
+        System.out.printf("Saldo: %.2f%n", this.saldo);
     }
 
     public void imprimirMovimentacoes() {
-        System.out.println(String.format("==== Movimentações - Agência: %d, Conta: %d ====",
-                this.getAgencia(), this.getNumeroConta()));
+        System.out.printf("==== Movimentações - Agência: %d, Conta: %d ====%n",
+                this.getAgencia(), this.getNumeroConta());
         movimentacoes.forEach(reg -> System.out.println("  " + reg));
     }
 

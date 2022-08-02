@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b8875c9-6f53-4bec-b308-2fe4a388d487" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/desafio/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio/Banco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/desafio/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/desafio/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/desafio/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/desafio/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio/ContaPoupanca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/desafio/IConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio/IConta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/desafio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafio/Main.java" afterDir="false" />
     </list>
@@ -59,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659455944513</updated>
       <workItem from="1659455945796" duration="4419000" />
-      <workItem from="1659460385796" duration="7937000" />
+      <workItem from="1659460385796" duration="8501000" />
     </task>
     <servers />
   </component>
