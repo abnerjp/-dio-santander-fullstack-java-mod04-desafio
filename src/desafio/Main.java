@@ -2,12 +2,12 @@ package desafio;
 
 public class Main {
     public static void main(String[] args) {
-        Cliente cliente1 = new Cliente("Abner");
-        Cliente cliente2 = new Cliente("Davi");
+        Cliente cliente1 = new Cliente("Fulano");
+        Cliente cliente2 = new Cliente("Ciclano");
 
-        Banco bancoBrasil = new Banco("Banco do Brasil");
-        Conta contaCorrenteCli1 = bancoBrasil.criarContaCorrente(cliente1);
-        Conta contaPoupancaCli2 = bancoBrasil.criarContaPoupanca(cliente2);
+        Banco bancoDoPais = new Banco("Banco do País");
+        Conta contaCorrenteCli1 = bancoDoPais.criarContaCorrente(cliente1);
+        Conta contaPoupancaCli2 = bancoDoPais.criarContaPoupanca(cliente2);
 
         contaCorrenteCli1.depositar(100);
         contaCorrenteCli1.transferir(30, contaPoupancaCli2);
@@ -19,10 +19,10 @@ public class Main {
         contaPoupancaCli2.imprimirExtrato();
         contaPoupancaCli2.imprimirMovimentacoes();
 
-        bancoBrasil.listarClientes();
-        bancoBrasil.listarTodasContasComClientes();
-        bancoBrasil.listarContasCorrenteComClientes();
-        bancoBrasil.listarContasPoupancaComClientes();
+        bancoDoPais.listarClientes();
+        bancoDoPais.listarTodasContasComClientes();
+        bancoDoPais.listarContasCorrenteComClientes();
+        bancoDoPais.listarContasPoupancaComClientes();
 
     }
 }
